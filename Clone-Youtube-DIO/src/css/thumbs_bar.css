@@ -1,0 +1,38 @@
+@import url(/reset.css);
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.thumb {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.thumb img {
+    border-radius: 5px;
+}
+
+.thumb_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    max-width: 350px;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.thumb_title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
