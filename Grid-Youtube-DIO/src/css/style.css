@@ -1,0 +1,250 @@
+@import url(/reset.css);
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 32px 0 16px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    margin-top: 24px;
+}
+
+/* TOPBAR LEFT */
+
+.left {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.left a {
+    padding-top: 2px;
+}
+
+.youtubelogo {
+    height: 20px;
+}
+
+.avatar {
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* TOPBAR SEARCH BAR */
+
+.search_box {
+    display: flex;
+    align-items: center;
+}
+
+#search_input {
+    width: 30vw;
+    height: 40px;
+    border: 0.5px solid gray;
+    padding-left: 16px;
+    font-size: 16px;
+    color: rgb(205, 205, 205);
+    border-radius: 50px 0 0 50px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.search_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 42px;
+    border: 0.5px solid gray;
+    border-radius: 0 50px 50px 0;
+    background-color: #F8F8F8;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.search_button img {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    object-fit: contain;
+}
+
+.hidden {
+    color: #898989;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.mic {
+    margin-left: 24px;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+.icon_mic {
+    height: 16px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+/* TOPBAR RIGHT */
+
+.right {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+/* SIDEBAR MENU */
+
+.sidebar {
+    width: 220px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar_button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-width: 200px;
+    height: 36px;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 50px;
+    background: transparent;
+}
+
+.sidebar_icon {
+    margin-right: 4px;
+    width: 22px;
+    height: auto;
+}
+
+.text_sidebar_button {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.text_sidebar_button_you {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: #000;
+}
+
+.text_sidebar_button_subscriptions {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.sidebar_button:hover {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #cfcbcb;
+    margin: 16px 0;
+}
+
+.avatar_subscriptions {
+    width: 24px;
+    height: 24px;
+}
+
+.avatar_subscriptions_home {
+    width: 32px;
+    height: 32px;
+}
+
+/* GRID THUMBS */
+
+.thumbs_bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
+}
+
+.thumb {
+    display: block;
+    flex-direction: column;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+.thumb img {
+    border-radius: 15px;
+    max-width: 332px;
+}
+
+.thumb_description_main {
+    display: flex;
+    margin-top: 16px;
+}
+
+.thumb_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-left: 16px;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.thumb_description .thumb_title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    max-width: 280px;
+}
+
+.thumb_description span {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    margin-top: -2px;
+}

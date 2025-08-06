@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="icon" href="./src/images/youtube_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="topbar">
+
+            <div class="left">
+                <button class="icons">
+                    <img src="./src/images/menu.png" alt="menu drop-down" class="icons" />
+                </button>
+                <a href="http://www.youtube.com/" target="_blank"><img src="./src/images/youtube.png"
+                        alt="ícone do YouTube" class="youtubelogo"></a>
+            </div>
+
+            <div class="search_box">
+                <label for="search_input"><span class="hidden">Pesquisar</span></label>
+                <input type="text" name="Search" id="search_input" placeholder="Pesquisar">
+                <div class="search_button">
+                    <a href=""><img src="./src/images/search.png" alt="busca" class="button_search"></a>
+                </div>
+                <div class="mic">
+                    <a href=""><img src="./src/images/mic.png" alt="microfone" class="icon_mic"></a>
+                </div>
+            </div>
+
+            <div class="right">
+                <a href=""><img src="./src/images/video.png" alt="adicionar novo vídeo" class="icons"></a>
+                <a href=""><img src="./src/images/bell.png" alt="notificações" class="icons"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="./src/images/avatar.jpg"
+                        alt="avatar do canal" class="avatar"></a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="sidebar">
+
+            <a href="https://www.youtube.com/" target="_blank" alt="shorts" class="sidebar_button">
+                <img src="./src/images/home.png" class="sidebar_icon" alt="início">
+                <p class="text_sidebar_button">Início</p>
+            </a>
+
+            <a href="https://www.youtube.com/shorts/" target="_blank" alt="shorts" class="sidebar_button">
+                <img src="./src/images/shorts.png" class="sidebar_icon" alt="shorts">
+                <p class="text_sidebar_button">Shorts</p>
+            </a>
+
+            <a href="https://www.youtube.com/feed/subscriptions" target="_blank" alt="avatar do canal"
+                class="sidebar_button">
+                <img src="./src/images/subscription.png" class="sidebar_icon" alt="inscrições">
+                <p class="text_sidebar_button">Inscrições</p>
+            </a>
+
+            <hr>
+
+            <a href="https://www.youtube.com/feed/you" target="_blank" alt="feed" class="sidebar_button">
+                <p class="text_sidebar_button_you">Você</p>
+                <img src="./src/images/arrow_right.png" class="sidebar_icon" alt="feed">
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank" alt="seu canal" class="sidebar_button">
+                <img src="./src/images/my-channel.png" class="sidebar_icon" alt="seu canal">
+                <p class="text_sidebar_button">Seu canal</p>
+            </a>
+
+            <a href="https://www.youtube.com/feed/history" target="_blank" alt="histórico" class="sidebar_button">
+                <img src="./src/images/history.png" class="sidebar_icon" alt="histórico">
+                <p class="text_sidebar_button">Histórico</p>
+            </a>
+
+            <a href="https://studio.youtube.com/" target="_blank" alt="seus vídeos" class="sidebar_button">
+                <img src="./src/images/my-videos.png" class="sidebar_icon" alt="seus vídeos">
+                <p class="text_sidebar_button">Seus vídeos</p>
+            </a>
+
+            <a href="https://www.youtube.com/playlist?list=WL" target="_blank" alt="assistir mais tarde"
+                class="sidebar_button">
+                <img src="./src/images/watch-later.png" class="sidebar_icon" alt="assistir mais tarde">
+                <p class="text_sidebar_button">Assistir mais tarde</p>
+            </a>
+
+            <a href="https://www.youtube.com/playlist?list=LL" target="_blank" alt="vídeos com gostei"
+                class="sidebar_button">
+                <img src="./src/images/like.png" class="sidebar_icon" alt="vídeos com gostei">
+                <p class="text_sidebar_button">Vídeos com "Gostei"</p>
+            </a>
+
+            <div class="sidebar_button">
+                <img src="./src/images/arrow_down.png" class="sidebar_icon" alt="você">
+                <p class="text_sidebar_button">Mostrar mais</p>
+            </div>
+
+            <hr>
+
+            <!--SUBSCRIPTIONS BAR -->
+
+            <p class="text_sidebar_button_subscriptions">Inscrições</p>
+
+            <a href="https://www.youtube.com/" target="_blank" alt="" class="sidebar_button">
+                <img src="./src/channel_icons/chanel.png" alt="avatar do canal" class="avatar_subscriptions">
+                <p class="text_sidebar_button">DIO</p>
+            </a>
+
+            <a href="https://www.youtube.com/@funkyblackcat" target="_blank" alt="" class="sidebar_button">
+                <img src="./src/channel_icons/funky.png" alt="avatar do canal" class="avatar_subscriptions">
+                <p class="text_sidebar_button">Funky Black Cat</p>
+            </a>
+
+            <a href="https://www.youtube.com/@JovemNerd" target="_blank" alt="" class="sidebar_button">
+                <img src="./src/channel_icons/jovemnerd.png" alt="avatar do canal" class="avatar_subscriptions">
+                <p class="text_sidebar_button">Jovem Nerd</p>
+            </a>
+
+            <a href="https://www.youtube.com/@manualdomundo" target="_blank" alt="" class="sidebar_button">
+                <img src="./src/channel_icons/manualdomundo.png" alt="avatar do canal" class="avatar_subscriptions">
+                <p class="text_sidebar_button">Manual do Mundo</p>
+            </a>
+
+            <div class="sidebar_button">
+                <img src="./src/images/arrow_down.png" class="sidebar_icon" alt="você">
+                <p class="text_sidebar_button">Mostrar mais 15</p>
+            </div>
+
+        </div>
+
+        <!-- VIDEOS GRID -->
+
+        <div class="thumbs_bar">
+
+            <a href="https://www.youtube.com/watch?v=dNuZJj4IAA4" target="_blank" alt="video" class="thumb">
+                <img src="./src/thumbs/Thumb5.webp" alt="thumbnail">
+                <div class="thumb_description_main">
+                    <img src="./src/channel_icons/funky.png" alt="thumbnail" class="avatar_subscriptions_home">
+                    <div class="thumb_description">
+                        <span class="thumb_title">Meu escritório é na praia</span>
+                        <span>Funky Black Cat</span>
+                        <span>173 mil visualizações • há 3 meses</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=KtQ1dOpMknY" target="_blank" alt="video" class="thumb">
+                <img src="./src/thumbs/Thumb10.webp" alt="thumbnail">
+                <div class="thumb_description_main">
+                    <img src="./src/channel_icons/manualdomundo.png" alt="thumbnail" class="avatar_subscriptions_home">
+                    <div class="thumb_description">
+                        <span class="thumb_title">Do que é FEITO exatamente o FOGO? Iberê responde!</span>
+                        <span>Manual do Mundo</span>
+                        <span>518 mil visualizações • há 2 semanas</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=6RY4ntsISAM" target="_blank" alt="video" class="thumb">
+                <img src="./src/thumbs/Thumb12.webp" alt="thumbnail">
+                <div class="thumb_description_main">
+                    <img src="./src/channel_icons/jovemnerd.png" alt="thumbnail" class="avatar_subscriptions_home">
+                    <div class="thumb_description">
+                        <span class="thumb_title">Trailer Fallout - PAREM O JOVEM NERD!</span>
+                        <span>Jovem Nerd</span>
+                        <span>99 mil visualizações • há 1 dia</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=aYkgR3aEcYU" target="_blank" alt="video" class="thumb">
+                <img src="./src/thumbs/Thumb14.webp" alt="thumbnail">
+                <div class="thumb_description_main">
+                    <img src="./src/channel_icons/manualdomundo.png" alt="thumbnail" class="avatar_subscriptions_home">
+                    <div class="thumb_description">
+                        <span class="thumb_title">Você SABIA que ele é GEOFÍSICO? | Sérgio Sacani | Na Trilha dos
+                            Gigantes</span>
+                        <span>Manual do Mundo</span>
+                        <span>598 mil visualizações • há 1 mes</span>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </main>
+</body>
+
+</html>
